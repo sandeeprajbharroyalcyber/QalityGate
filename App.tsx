@@ -44,6 +44,7 @@ export class App extends React.Component<Props, State> {
     };
 
     let test1 = 1;
+    let test1 = 2;
   }
 
   public componentDidMount() {
