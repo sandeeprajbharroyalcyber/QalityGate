@@ -60,7 +60,7 @@ export class App extends React.Component<Props, State> {
   }
 
 
-  public onIncrement = () => {
+  public onIncrement1 = () => {
 
     console.log("Testing log ++ ", this.state.count + 1);
     this.setState({
@@ -69,7 +69,7 @@ export class App extends React.Component<Props, State> {
   }
 
 
-  public onIncrement = () => {
+  public onIncrement2 = () => {
 
     console.log("Testing log ++ ", this.state.count + 1);
     this.setState({
@@ -77,7 +77,7 @@ export class App extends React.Component<Props, State> {
     })
   }
 
-  public onIncrement = () => {
+  public onIncrement3 = () => {
 
     console.log("Testing log ++ ", this.state.count + 1);
     this.setState({
@@ -85,7 +85,7 @@ export class App extends React.Component<Props, State> {
     })
   }
 
-  public onIncrement = () => {
+  public onIncrement4 = () => {
 
     console.log("Testing log ++ ", this.state.count + 1);
     this.setState({
@@ -102,7 +102,7 @@ export class App extends React.Component<Props, State> {
     })
   }
 
-  public onDecremnent = () => {
+  public onDecremnent3 = () => {
 
     console.log("Testing log ++ ", this.state.count - 1);
     this.setState({
