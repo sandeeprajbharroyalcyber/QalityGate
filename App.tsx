@@ -42,11 +42,6 @@ export class App extends React.Component<Props, State> {
     this.state = {
       count: 0,
     };
-
-    let test1 = 1;
-    let test1 = 2;
-    let test1 = 1;
-    let test1 = 2;
   }
 
   public componentDidMount() {
