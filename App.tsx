@@ -110,6 +110,28 @@ export class App extends React.Component<Props, State> {
       count:  this.state.count - 1,
     })
   }
+  public onDecremnent3 = () => {
+
+    console.log("Testing log ++ ", this.state.count - 1);
+    this.setState({
+      count:  this.state.count - 1,
+    })
+  }
+
+  public onDecremnent3 = () => {
+
+    console.log("Testing log ++ ", this.state.count - 1);
+    this.setState({
+      count:  this.state.count - 1,
+    })
+  }
+  public onDecremnent3 = () => {
+
+    console.log("Testing log ++ ", this.state.count - 1);
+    this.setState({
+      count:  this.state.count - 1,
+    })
+  }
 
 
   public render() {
