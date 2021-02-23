@@ -35,19 +35,11 @@ interface State {
 }
 
 export class App extends React.Component<Props, State> {
-
-
   public constructor(props: Props) {
     super(props);
     this.state = {
       count: 0,
     };
-
-    let test1 = 1;
-    let test1 = 2;
-    let test1 = 2;
-    let test1 = 2;
-    let test1 = 2;
   }
 
   public componentDidMount() {
@@ -63,39 +55,6 @@ export class App extends React.Component<Props, State> {
     })
   }
 
-
-  public onIncrement1 = () => {
-
-    console.log("Testing log ++ ", this.state.count + 1);
-    this.setState({
-      count:  this.state.count + 1,
-    })
-  }
-
-
-  public onIncrement2 = () => {
-
-    console.log("Testing log ++ ", this.state.count + 1);
-    this.setState({
-      count:  this.state.count + 1,
-    })
-  }
-
-  public onIncrement3 = () => {
-
-    console.log("Testing log ++ ", this.state.count + 1);
-    this.setState({
-      count:  this.state.count + 1,
-    })
-  }
-
-  public onIncrement4 = () => {
-
-    console.log("Testing log ++ ", this.state.count + 1);
-    this.setState({
-      count:  this.state.count + 1,
-    })
-  }
 
 
   public onDecremnent = () => {
