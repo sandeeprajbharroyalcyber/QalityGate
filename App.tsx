@@ -43,8 +43,7 @@ export class App extends React.Component<Props, State> {
       count: 0,
     };
 
-    let test1 = 1;
-    let test1 = 2;
+    
   }
 
   public componentDidMount() {
