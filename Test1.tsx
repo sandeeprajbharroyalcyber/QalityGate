@@ -42,9 +42,6 @@ export class App extends React.Component<Props, State> {
     this.state = {
       count: 0,
     };
-
-    let test1 = 1;
-    let test1 = 2;
   }
 
   public componentDidMount() {
@@ -60,16 +57,6 @@ export class App extends React.Component<Props, State> {
     })
   }
 
-
-  public onIncrement = () => {
-
-    console.log("Testing log ++ ", this.state.count + 1);
-    this.setState({
-      count:  this.state.count + 1,
-    })
-  }
-
-
   public onDecremnent = () => {
 
     console.log("Testing log ++ ", this.state.count - 1);
@@ -78,15 +65,7 @@ export class App extends React.Component<Props, State> {
     })
   }
 
-  public onDecremnent = () => {
-
-    console.log("Testing log ++ ", this.state.count - 1);
-    this.setState({
-      count:  this.state.count - 1,
-    })
-  }
-
-
+  
   public render() {
     return (
       <>
