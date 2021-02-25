@@ -52,6 +52,49 @@ export class App extends React.Component<Props, State> {
   public onIncrement = () => {
 
     console.log("Testing log ++ ", this.state.count + 1);
+
+    console.log("Prod test log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+
+    console.log("Prod test log ++ ", this.state.count + 1);
+
+    console.log("Testing log ++ ", this.state.count + 1);
+
+    console.log("Prod test log ++ ", this.state.count + 1);
+
+    console.log("Testing log ++ ", this.state.count + 1);
+
+    console.log("Prod test log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+
+    console.log("Prod test log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+
+    console.log("Prod test log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+
+    console.log("Prod test log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+
+    console.log("Prod test log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+
+    console.log("Prod test log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+
+    console.log("Prod test log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+
+    console.log("Prod test log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+
+    console.log("Prod test log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+
+    console.log("Prod test log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+
+    console.log("Prod test log ++ ", this.state.count + 1);
     this.setState({
       count:  this.state.count + 1,
     })
