@@ -34,7 +34,7 @@ interface State {
   count: number;
 }
 
-export class App extends React.Component<Props, State> {
+export class Test1 extends React.Component<Props, State> {
 
 
   public constructor(props: Props) {
@@ -177,4 +177,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Test1;
