@@ -18,4 +18,11 @@ describe('Testpage Component', () => {
     let test1comp = renderer.create(<Test1 />).getInstance();
     expect(test1comp?.sampleFunction(1, 2)).toEqual(3);
   });
+
+
+  test('test sample function1', () => {
+    let test1comp = renderer.create(<Test1 />).getInstance();
+    expect(test1comp?.sampleFunction1(1, 2)).toEqual(2);
+  });
+
 });
