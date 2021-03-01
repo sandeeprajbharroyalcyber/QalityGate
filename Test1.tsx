@@ -101,37 +101,7 @@ export class Test1 extends React.Component<Props, State> {
                   <ReloadInstructions />
                 </Text>
               </View>
-              <View style={styles.sectionContainer}>
-                <Text style={styles.sectionTitle}>Debug</Text>
-                <Text style={styles.sectionDescription}>
-                  <DebugInstructions />
-                </Text>
-              </View>
-              <View style={styles.sectionContainer}>
-                <Text style={styles.sectionTitle}>Learn More</Text>
-                <Text style={styles.sectionDescription}>
-                  Read the docs to discover what to do next:
-                  </Text>
-              </View>
-              <View style={styles.sectionContainer}>
-                <Button
-                  title="+"
-                  onPress={this.onIncrement}
-                  accessibilityLabel="increment"
-                  color="green"
-                />
-              </View>
-              <Text style={styles.sectionDescription}>
-                  Count Update: {this.state.count}
-                  </Text>
-              <View style={styles.sectionContainer}>
-                <Button
-                  title="-"
-                  onPress={this.onDecremnent}
-                  accessibilityLabel="increment"
-                  color="red"
-                />
-              </View>
+              
             </View>
           </ScrollView>
         </SafeAreaView>
