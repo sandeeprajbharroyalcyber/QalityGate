@@ -6,23 +6,13 @@
  * @flow strict-local
  */
 
-import React, { useState, useEffect } from 'react';
+import React, {  } from 'react';
 import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-  Button
+  
 } from 'react-native';
 
 import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
+ 
 } from 'react-native/Libraries/NewAppScreen';
 
 import Test1 from './Test1';
