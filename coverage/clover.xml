@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1614604211778" clover="3.2.0">
+  <project timestamp="1614604211778" name="All files">
+    <metrics statements="12" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="6" coveredmethods="4" elements="20" coveredelements="13" complexity="0" loc="12" ncloc="12" packages="1" files="1" classes="1"/>
+    <file name="Test1.tsx" path="/Users/sandeeprajbhar/Documents/MyProject/POC/SonarQualityTest/Test1.tsx">
+      <metrics statements="12" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="6" coveredmethods="4"/>
+      <line num="41" count="2" type="stmt"/>
+      <line num="42" count="2" type="stmt"/>
+      <line num="52" count="2" type="stmt"/>
+      <line num="54" count="0" type="stmt"/>
+      <line num="56" count="0" type="stmt"/>
+      <line num="61" count="2" type="stmt"/>
+      <line num="63" count="0" type="stmt"/>
+      <line num="64" count="0" type="stmt"/>
+      <line num="69" count="2" type="stmt"/>
+      <line num="70" count="1" type="stmt"/>
+      <line num="75" count="2" type="stmt"/>
+      <line num="141" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

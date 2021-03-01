@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/Users/sandeeprajbhar/Documents/MyProject/POC/SonarQualityTest/__tests__/Test1-test.tsx">
+    <testCase name="Testpage Component renders correctly" duration="664"/>
+    <testCase name="Testpage Component test sample function" duration="10"/>
+  </file>
+</testExecutions>
