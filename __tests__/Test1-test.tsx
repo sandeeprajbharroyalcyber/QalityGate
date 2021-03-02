@@ -5,13 +5,30 @@
 import 'react-native';
 import React from 'react';
 import Test1 from '../Test1';
-
+import { shallow } from 'enzyme';
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
 
 describe('Testpage Component', () => {
+
   it('renders correctly', () => {
     renderer.create(<Test1 />);
+  });
+
+  it("should increment index - function test", () => {
+    const app = shallow(<Test1 />);
+    expect(app.state("count")).toEqual(0);
+    app.instance().onIncrement();
+    expect(app.state("count")).toEqual(1);
+
+  });
+
+  it("should increment index - function test", () => {
+    const app = shallow(<Test1 />);
+    expect(app.state("count")).toEqual(0);
+    app.instance().onDecremnent();
+    expect(app.state("count")).toEqual(-1);
+
   });
 
   test('test sample function', () => {
