@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1614669145458" clover="3.2.0">
-  <project timestamp="1614669145458" name="All files">
+<coverage generated="1614670161620" clover="3.2.0">
+  <project timestamp="1614670161620" name="All files">
     <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="1" methods="7" coveredmethods="7" elements="23" coveredelements="22" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
     <file name="Test1.tsx" path="/Users/sandeeprajbhar/Documents/MyProject/POC/SonarQualityTest/Test1.tsx">
       <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="1" methods="7" coveredmethods="7"/>
