@@ -34,7 +34,7 @@ interface State {
   count: number;
 }
 
-export class App extends React.Component<Props, State> {
+export class Test1 extends React.Component<Props, State> {
 
 
   public constructor(props: Props) {
@@ -68,6 +68,11 @@ export class App extends React.Component<Props, State> {
 
   public sampleFunction = (x: any, y: any) => {
     return x + y;
+  }
+
+
+  public sampleFunction1 = (x: any, y: any) => {
+    return x * y;
   }
 
 
@@ -177,4 +182,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Test1;
