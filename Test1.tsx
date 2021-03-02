@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 
-import React, { useState, useEffect } from 'react';
+import React, { } from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -19,7 +19,6 @@ import {
 
 import {
   Header,
-  LearnMoreLinks,
   Colors,
   DebugInstructions,
   ReloadInstructions,
@@ -36,7 +35,6 @@ interface State {
 
 export class Test1 extends React.Component<Props, State> {
 
-
   public constructor(props: Props) {
     super(props);
     this.state = {
@@ -47,7 +45,6 @@ export class Test1 extends React.Component<Props, State> {
   public componentDidMount() {
 
   }
-
 
   public onIncrement = () => {
 
@@ -70,7 +67,6 @@ export class Test1 extends React.Component<Props, State> {
     return x + y;
   }
 
-
   public sampleFunction1 = (x: any, y: any) => {
     return x * y;
   }
@@ -78,8 +74,6 @@ export class Test1 extends React.Component<Props, State> {
   public sampleFunction2 = (x: any, y: any) => {
     return x - y;
   }
-
-
 
   public render() {
     return (
