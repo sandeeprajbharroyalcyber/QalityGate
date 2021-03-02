@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1614609409089" clover="3.2.0">
-  <project timestamp="1614609409089" name="All files">
-    <metrics statements="14" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="7" coveredmethods="5" elements="23" coveredelements="16" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
+<coverage generated="1614671910589" clover="3.2.0">
+  <project timestamp="1614671910589" name="All files">
+    <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="1" methods="8" coveredmethods="8" elements="26" coveredelements="25" complexity="0" loc="16" ncloc="16" packages="1" files="1" classes="1"/>
     <file name="Test1.tsx" path="/Users/sandeeprajbhar/Documents/MyProject/POC/SonarQualityTest/Test1.tsx">
-      <metrics statements="14" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="7" coveredmethods="5"/>
-      <line num="41" count="3" type="stmt"/>
-      <line num="42" count="3" type="stmt"/>
-      <line num="52" count="3" type="stmt"/>
-      <line num="54" count="0" type="stmt"/>
-      <line num="56" count="0" type="stmt"/>
-      <line num="61" count="3" type="stmt"/>
-      <line num="63" count="0" type="stmt"/>
-      <line num="64" count="0" type="stmt"/>
-      <line num="69" count="3" type="stmt"/>
+      <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="1" methods="8" coveredmethods="8"/>
+      <line num="41" count="6" type="stmt"/>
+      <line num="42" count="6" type="stmt"/>
+      <line num="52" count="6" type="stmt"/>
+      <line num="54" count="1" type="stmt"/>
+      <line num="56" count="1" type="stmt"/>
+      <line num="61" count="6" type="stmt"/>
+      <line num="63" count="1" type="stmt"/>
+      <line num="64" count="1" type="stmt"/>
+      <line num="69" count="6" type="stmt"/>
       <line num="70" count="1" type="stmt"/>
-      <line num="74" count="3" type="stmt"/>
+      <line num="74" count="6" type="stmt"/>
       <line num="75" count="1" type="stmt"/>
-      <line num="80" count="3" type="stmt"/>
-      <line num="146" count="1" type="stmt"/>
+      <line num="78" count="6" type="stmt"/>
+      <line num="79" count="1" type="stmt"/>
+      <line num="85" count="8" type="stmt"/>
+      <line num="151" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

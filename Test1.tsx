@@ -75,6 +75,11 @@ export class Test1 extends React.Component<Props, State> {
     return x * y;
   }
 
+  public sampleFunction2 = (x: any, y: any) => {
+    return x - y;
+  }
+
+
 
   public render() {
     return (
