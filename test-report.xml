@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
   <file path="/Users/sandeeprajbhar/Documents/MyProject/POC/SonarQualityTest/__tests__/Test1-test.tsx">
-    <testCase name="Testpage Component renders correctly" duration="376"/>
-    <testCase name="Testpage Component should increment index - function test" duration="27"/>
-    <testCase name="Testpage Component should increment index - function test" duration="7"/>
+    <testCase name="Testpage Component renders correctly" duration="447"/>
+    <testCase name="Testpage Component should increment index - function test" duration="28"/>
+    <testCase name="Testpage Component should increment index - function test" duration="6"/>
     <testCase name="Testpage Component test sample function" duration="6"/>
-    <testCase name="Testpage Component test sample function1" duration="5"/>
-    <testCase name="Testpage Component test sample function2" duration="6"/>
+    <testCase name="Testpage Component test sample function1" duration="6"/>
+    <testCase name="Testpage Component test sample function2" duration="7"/>
+    <testCase name="Testpage Component test sample function3" duration="7"/>
   </file>
 </testExecutions>
