@@ -56,6 +56,13 @@ export class Test1 extends React.Component<Props, State> {
   public onDecremnent = () => {
 
     console.log("Testing log ++ ", this.state.count - 1);
+    console.log("Testing log ++ ", this.state.count - 1);
+    console.log("Testing log ++ ", this.state.count - 1);
+    console.log("Testing log ++ ", this.state.count - 1);
+    console.log("Testing log ++ ", this.state.count - 1);
+    console.log("Testing log ++ ", this.state.count - 1);
+    console.log("Testing log ++ ", this.state.count - 1);
+    console.log("Testing log ++ ", this.state.count - 1);
     this.setState({
       count:  this.state.count - 1,
     })
@@ -77,6 +84,16 @@ export class Test1 extends React.Component<Props, State> {
     return x - y;
   }
 
+  public sampleFunction4 = (x: any, y: any) => {
+    return x - y;
+  }
+
+  public sampleFunction5 = (x: any, y: any) => {
+    return x - y;
+  }
+
+
+  
   
 
   public render() {
