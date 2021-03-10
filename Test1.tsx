@@ -49,6 +49,20 @@ export class Test1 extends React.Component<Props, State> {
   public onIncrement = () => {
 
     console.log("Testing log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
+    console.log("Testing log ++ ", this.state.count + 1);
         
     this.setState({
       count:  this.state.count + 1,
@@ -72,6 +86,30 @@ export class Test1 extends React.Component<Props, State> {
   }
 
   public sampleFunction2 = (x: any, y: any) => {
+    return x - y;
+  }
+
+  public sampleFunction3 = (x: any, y: any) => {
+    return x - y;
+  }
+
+  public sampleFunction3 = (x: any, y: any) => {
+    return x - y;
+  }
+
+  public sampleFunction3 = (x: any, y: any) => {
+    return x - y;
+  }
+
+  public sampleFunction3 = (x: any, y: any) => {
+    return x - y;
+  }
+
+  public sampleFunction3 = (x: any, y: any) => {
+    return x - y;
+  }
+
+  public sampleFunction3 = (x: any, y: any) => {
     return x - y;
   }
 
